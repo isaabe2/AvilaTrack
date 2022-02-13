@@ -12,7 +12,6 @@ import './css/Canal.css';
 import './css/Feed.css';
 import './css/Comment.css';
 import './css/FeedAnonimo.css';
-import Navbar from './components/Navbar';
 import Logged from './components/Logged';
 import Login from './components/Login';
 import Signup from './components/Signup';
@@ -30,16 +29,16 @@ function App() {
    
     <Router>
       <Routes>
+        <Route path="/" element={<Home/>}/>
         <Route path="/home" element={<Home/>}/>
-        <Route path="/" element={<Navbar/>}>
-          <Route path="/mypage" element={<MyPage/>}/>
-          <Route path="/login" element={<Login/>}/>
-          <Route path="/signup" element={<Signup/>}/>
-          <Route path="/settings" element={<Settings/>}/>
-          <Route path="/create" element={<Create/>}/>
-          <Route path="/canalL" element={<CanalL/>}/>
-          <Route path="/anonimo" element={<CanalA/>}/>
-        </Route>
+        <Route path="/mypage" element={<MyPage/>}/>
+        <Route path="/login" element={<Login/>}/>
+        <Route path="/signup" element={<Signup/>}/>
+        <Route path="/settings" element={<Settings/>}/>
+        <Route path="/create" element={<Create/>}/>
+        <Route path="/canalL" element={<CanalL/>}/>
+        <Route path="/anonimo" element={<CanalA/>}/>
+        
       </Routes>
     </Router>
    

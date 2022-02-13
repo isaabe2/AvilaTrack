@@ -1,5 +1,10 @@
+import Navbar from './Navbar'
+
+
 const Create = () => {
     return(
+        <>
+        <Navbar/>
         <div class='center'>
         <div class='greybox2'>
             <header class='title2'>Crear Canal</header>
@@ -24,7 +29,7 @@ const Create = () => {
 
 
             </div>
-            </div>
+            </div></>
     )
 }
 

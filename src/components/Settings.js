@@ -1,7 +1,11 @@
+import Navbar from './Navbar'
+
 const Settings = () => {
 
 
     return (
+        <>
+        <Navbar/>
         <div class='center'>
             <div class='box1'>
             <a href=''> <img  src={require('./user.png')} alt='user image' class='user2'/></a>
@@ -17,7 +21,7 @@ const Settings = () => {
 
 
             </div>
-        </div>
+        </div></>
     )
     }
 

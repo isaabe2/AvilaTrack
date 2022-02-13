@@ -1,6 +1,8 @@
 import {React,useState} from 'react';
 import axios from 'axios';
 import {useNavigate} from 'react-router-dom';
+import Navbar from './Navbar'
+
 
 function Login(props) {
 
@@ -14,6 +16,8 @@ function Login(props) {
     }
 
     return (
+        <>
+        <Navbar/>
         <div class='center'>
         <div class='box1'>
             <div class='boxinput'>
@@ -29,6 +33,7 @@ function Login(props) {
 
         </div>
     </div>
+    </>
     );
 }
 

@@ -1,6 +1,8 @@
 import React, { useEffect,useState } from 'react';
 import axios from 'axios';
 import {useNavigate} from 'react-router-dom';
+import Navbar from './Navbar'
+
 
 
 function Signup() {
@@ -18,6 +20,8 @@ function Signup() {
     
 
     return (
+        <>
+        <Navbar/>
         <div class='center'>
             <div class='box1'>
                 <div class='boxinput'>
@@ -35,6 +39,8 @@ function Signup() {
 
             </div>
         </div>
+
+        </>
     )
     }
 
