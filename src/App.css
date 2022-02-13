@@ -1,38 +1,60 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Rowdies&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Rowdies&display=swap');
+
+body{
+  background-color: #8cbb0a81;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+header{
+  font-family: 'Roboto';
+  padding: 30px;
+  height: 20px;
+  font-weight:500;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+header.logo{
+  background: #fff;
+  font-size: 40px;
+  font-family: 'Rowdies', cursive;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+input.s{
+  float: right;
+  padding: 6px;
+  border: none;
+  border-radius: 30px;
+  margin-right: 16px;
+  font-size: 17px;
+  background-color: #ddd;
 }
 
-.App-link {
-  color: #61dafb;
+div.center{
+  background-color: #fff;
+  padding: 10px;
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  width: 95%;
+  min-height:550px; 
+  height: fit-content; 
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+div.greyBox{
+  background-color: #F0EFEF;
+  float: right;
+  width: 35%;
+  margin-right: 40px;
+  height: 400px;
+  margin-top: -150px;  
+  
+}
+
+p{
+  font-family: 'Roboto';
+}
+
+textarea{
+  outline: none;
+  resize: none;
+  font-family: 'Roboto';
 }

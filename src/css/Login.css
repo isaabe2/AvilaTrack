@@ -1,0 +1,47 @@
+div.box1{
+    background-color: #F0EFEF;
+    height: 420px;
+    max-width: 350px;
+    margin: auto;
+    margin-top: 30px;
+    box-shadow:3px 3px 3px 2px rgba(128, 128, 128, 0.241);
+    padding: 10px;
+    
+}
+
+input.e{
+    margin-bottom:30px;
+    background-color: #fff;
+    width: 250PX;
+    height: 30px;
+    margin-right: 42px;
+    float: right;
+    padding: 6px;
+    border: none;
+    border-radius: 0px;
+    font-size: 15px;
+   
+}
+
+div.boxinput{
+    margin-top: 70px;
+}
+
+a.fp{
+    font-size: small;
+  font-weight: bold;
+  margin-top: 20px;
+  color: #998877;
+  margin-left: 100px; 
+}
+
+a.fp2{
+    font-size: small;
+  font-weight: bold;
+  margin-top: 20px;
+ 
+}
+
+p.rgst{
+    margin-left: 80px;
+}

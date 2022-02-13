@@ -1,0 +1,26 @@
+button.Signupbtn{
+    background-color: #8cbb0a69;
+    color: #fff;
+    font-family: 'Roboto';
+    font-size:x-large;
+    padding: 10px;
+    padding-left: 10px;
+    border-radius: 50px;
+    width: 250px;
+    text-align: center;
+    transition: all 0.5s;
+    cursor: pointer;
+    box-shadow: 0 9px 20px -8px rgba(0, 0, 0,.7);
+    margin: auto;
+    margin-left: 50px;
+    border: 0;
+  
+   
+    }
+    
+    p.Signupbtn:hover{
+        padding-right: 8px;
+        padding-left:8px;
+      }
+
+      

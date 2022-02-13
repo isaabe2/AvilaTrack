@@ -1,0 +1,92 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+
+
+div.greybox2{
+    width: 50%;
+    height: 500px;
+    background-color: #F0EFEF;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+   
+}
+
+img.cp{
+    width: 25%;
+    height: 30%;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+
+header.title2{
+    font-size: 50px;
+
+}
+
+div.pics{
+    float: left;
+}
+
+div.channelform{
+    float: right;
+    margin-top: -305px;
+    margin-right: 50px;
+  
+}
+
+input.channelname{
+    display: block;
+    margin-bottom: 30px;
+    height: 25px;
+    width: 180px;
+    border: 0px;  
+}
+
+textarea.channeldesc{
+  width: 230px;
+  height: 100px;
+  text-align:inherit;
+  border: 0px;
+
+}
+
+textarea::placeholder {
+    font-family: 'Roboto';
+  
+}
+
+svg.imgbtn{
+    color:#7c7b7b;
+    display: block;
+    margin-left: 95px;
+    margin-top: 40px;
+   
+    
+}
+
+header.titleP{
+    margin-left: 56px;
+    margin-top: -25px;
+}
+
+p.actbtn{
+background-color: #8cbb0a69;
+color: #fff;
+font-family: 'Roboto';
+font-size:x-large;
+padding: 10px;
+padding-left: 10px;
+border-radius: 50px;
+width: 230px;
+text-align: center;
+transition: all 0.5s;
+cursor: pointer;
+box-shadow: 0 9px 20px -8px rgba(0, 0, 0,.7);
+margin: auto;
+margin-top: 60px;}
+
+    p.actbtn:hover{
+        padding-right: 8px;
+        padding-left:8px;
+        } 

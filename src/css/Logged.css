@@ -1,0 +1,61 @@
+div.profile{
+    align-items: center;
+}
+
+div.canalbtn{
+    display: block;
+    margin-left: 60px;
+    margin-top: 150px;
+ }
+ 
+ 
+p.cbtn{
+    background-color:#998877 ;
+    color: #fff;
+    font-family: 'Roboto';
+    font-size:x-large;
+    padding: 10px;
+    padding-left: 10px;
+    border-radius: 50px;
+    width: 265px;
+    text-align: center;
+    margin-bottom: 20px;
+    transition: all 0.5s;
+    cursor: pointer;
+    box-shadow: 0 9px 20px -8px rgba(0, 0, 0,.7);
+ }
+ 
+p.cbtn:hover{
+    padding-right: 8px;
+    padding-left:8px;
+}
+
+a.username{
+    font-family: 'Roboto';
+    margin-left: 100px;
+}
+
+svg.settings{
+    color: #8A8A8A;
+    float: right;
+    margin-top: -15px;
+    margin-right: 8px;
+    size: 30px;
+}
+
+img.logPic{
+    
+    width: 115px;
+    height: 115px;
+    margin-left: 90px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: -96px;
+    
+    
+}
+
+
+ 

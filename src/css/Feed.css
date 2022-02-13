@@ -1,0 +1,22 @@
+div.feed{
+    margin-top: 150px;
+    scroll-behavior: smooth;
+    
+}
+
+h5{
+    color:#8A8A8A;
+}
+
+div.cBox{
+    margin-left: 70px;
+    margin-right: 20px;
+    text-align:left;
+    
+
+}
+
+p.comment{
+    font-size: smaller;
+    
+}
